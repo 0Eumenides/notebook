@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-19aa22b0","path":"/%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/obsidian%E9%85%8D%E7%BD%AE.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[{"level":1,"title":"外观","slug":"外观","link":"#外观","children":[]}],"git":{},"filePathRelative":"奇淫巧技/obsidian配置.md"}');export{t as data};

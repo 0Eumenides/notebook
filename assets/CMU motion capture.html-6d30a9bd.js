@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-29565495","path":"/%E7%A7%91%E7%A0%94/%E6%95%B0%E6%8D%AE%E9%9B%86/CMU%20motion%20capture.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[],"git":{},"filePathRelative":"科研/数据集/CMU motion capture.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-21de461a","path":"/%E7%A7%91%E7%A0%94/tricks/Center_pooling.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[],"git":{},"filePathRelative":"科研/tricks/Center_pooling.md"}');export{t as data};

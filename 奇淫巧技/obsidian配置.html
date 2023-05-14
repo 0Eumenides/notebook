@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>目录 | 记录</title><meta name="description" content="个人博客">
+    <link rel="preload" href="/notebook/assets/style-72c644a3.css" as="style"><link rel="stylesheet" href="/notebook/assets/style-72c644a3.css">
+    <link rel="modulepreload" href="/notebook/assets/app-29aba0ee.js"><link rel="modulepreload" href="/notebook/assets/framework-e03faf0e.js"><link rel="modulepreload" href="/notebook/assets/obsidian配置.html-b8178469.js"><link rel="modulepreload" href="/notebook/assets/obsidian配置.html-c2b33983.js"><link rel="prefetch" href="/notebook/assets/index.html-2ace7bb6.js" as="script"><link rel="prefetch" href="/notebook/assets/python.html-f7046045.js" as="script"><link rel="prefetch" href="/notebook/assets/blog.html-cfba2365.js" as="script"><link rel="prefetch" href="/notebook/assets/git.html-20eabbb7.js" as="script"><link rel="prefetch" href="/notebook/assets/jetbrains.html-1049a7bd.js" as="script"><link rel="prefetch" href="/notebook/assets/three.html-c47c34ac.js" as="script"><link rel="prefetch" href="/notebook/assets/virtualenv.html-f88fa800.js" as="script"><link rel="prefetch" href="/notebook/assets/2023.04.27目标检测概述.html-f3c2e35c.js" as="script"><link rel="prefetch" href="/notebook/assets/2023.05.04FPN.html-1bdbd047.js" as="script"><link rel="prefetch" href="/notebook/assets/2023.05.11动作预测.html-0622b710.js" as="script"><link rel="prefetch" href="/notebook/assets/数据结构.html-9e5934b3.js" as="script"><link rel="prefetch" href="/notebook/assets/Docker.html-af4b735b.js" as="script"><link rel="prefetch" href="/notebook/assets/Maven.html-9468c922.js" as="script"><link rel="prefetch" href="/notebook/assets/Nginx.html-d7cc1b84.js" as="script"><link rel="prefetch" href="/notebook/assets/bash.html-137e9ab2.js" as="script"><link rel="prefetch" href="/notebook/assets/shell.html-1e644b7f.js" as="script"><link rel="prefetch" href="/notebook/assets/vim.html-8ee138e1.js" as="script"><link rel="prefetch" href="/notebook/assets/快速入门.html-afc25d48.js" as="script"><link rel="prefetch" href="/notebook/assets/原理解析.html-0e682a48.js" as="script"><link rel="prefetch" href="/notebook/assets/小知识点.html-375042f2.js" as="script"><link rel="prefetch" href="/notebook/assets/注解开发.html-ef417a35.js" as="script"><link rel="prefetch" href="/notebook/assets/AOP.html-8d768895.js" as="script"><link rel="prefetch" href="/notebook/assets/一个spring程序.html-7684c74d.js" as="script"><link rel="prefetch" href="/notebook/assets/声明式事务.html-46f2b627.js" as="script"><link rel="prefetch" href="/notebook/assets/整合Mybatis.html-24016c8e.js" as="script"><link rel="prefetch" href="/notebook/assets/Eureka.html-8d1b43f3.js" as="script"><link rel="prefetch" href="/notebook/assets/Feign.html-4e8e78f5.js" as="script"><link rel="prefetch" href="/notebook/assets/Hystrix.html-4bd24289.js" as="script"><link rel="prefetch" href="/notebook/assets/Ribbon.html-53740665.js" as="script"><link rel="prefetch" href="/notebook/assets/Zuul.html-2498ee57.js" as="script"><link rel="prefetch" href="/notebook/assets/初识SpringCloud.html-3b80e5d5.js" as="script"><link rel="prefetch" href="/notebook/assets/Jdbc.html-a7e8f990.js" as="script"><link rel="prefetch" href="/notebook/assets/Shiro.html-e44467e8.js" as="script"><link rel="prefetch" href="/notebook/assets/Swagger.html-911f6af4.js" as="script"><link rel="prefetch" href="/notebook/assets/Web静态资源处理.html-1f68088e.js" as="script"><link rel="prefetch" href="/notebook/assets/thymeleaf.html-ac0435f9.js" as="script"><link rel="prefetch" href="/notebook/assets/分布式.html-e19b2a12.js" as="script"><link rel="prefetch" href="/notebook/assets/异步、定时、邮件任务.html-7faaa219.js" as="script"><link rel="prefetch" href="/notebook/assets/整合mybatis.html-7afca196.js" as="script"><link rel="prefetch" href="/notebook/assets/第一天.html-98b6564d.js" as="script"><link rel="prefetch" href="/notebook/assets/第二天.html-573e1be5.js" as="script"><link rel="prefetch" href="/notebook/assets/ES6补充.html-b4cd5561.js" as="script"><link rel="prefetch" href="/notebook/assets/Vue基础.html-515cde43.js" as="script"><link rel="prefetch" href="/notebook/assets/Vue项目部署.html-f336f953.js" as="script"><link rel="prefetch" href="/notebook/assets/threejs的使用.html-ee030932.js" as="script"><link rel="prefetch" href="/notebook/assets/单文件组件.html-ff377a86.js" as="script"><link rel="prefetch" href="/notebook/assets/脚手架.html-e0f489e2.js" as="script"><link rel="prefetch" href="/notebook/assets/页面title.html-172b29b7.js" as="script"><link rel="prefetch" href="/notebook/assets/Bitmaps.html-79c742a3.js" as="script"><link rel="prefetch" href="/notebook/assets/Hyperloglog.html-d03cd507.js" as="script"><link rel="prefetch" href="/notebook/assets/Redis的基本事务操作.html-53b5c206.js" as="script"><link rel="prefetch" href="/notebook/assets/redis-benchmark性能测试.html-04679c0f.js" as="script"><link rel="prefetch" href="/notebook/assets/基本知识点.html-45da19a4.js" as="script"><link rel="prefetch" href="/notebook/assets/安装.html-57f6a802.js" as="script"><link rel="prefetch" href="/notebook/assets/集成Redis.html-d8f8d67c.js" as="script"><link rel="prefetch" href="/notebook/assets/Center_pooling.html-85cfbb9a.js" as="script"><link rel="prefetch" href="/notebook/assets/Focal_Loss.html-193c6d7b.js" as="script"><link rel="prefetch" href="/notebook/assets/MAE.html-4931b3e8.js" as="script"><link rel="prefetch" href="/notebook/assets/NMS非极大值抑制.html-09b3f293.js" as="script"><link rel="prefetch" href="/notebook/assets/corner_pooling.html-1e393616.js" as="script"><link rel="prefetch" href="/notebook/assets/smooth_L1_loss.html-91533a5e.js" as="script"><link rel="prefetch" href="/notebook/assets/CMU motion capture.html-6d30a9bd.js" as="script"><link rel="prefetch" href="/notebook/assets/Human3.6M.html-f42ef51e.js" as="script"><link rel="prefetch" href="/notebook/assets/Adapters.html-dd2b3a22.js" as="script"><link rel="prefetch" href="/notebook/assets/CLIP.html-c1dfee82.js" as="script"><link rel="prefetch" href="/notebook/assets/Faster_RCNN.html-a55276c4.js" as="script"><link rel="prefetch" href="/notebook/assets/MoCo.html-bdef694d.js" as="script"><link rel="prefetch" href="/notebook/assets/RoI池化层.html-af6a69eb.js" as="script"><link rel="prefetch" href="/notebook/assets/TCN.html-fe2792d8.js" as="script"><link rel="prefetch" href="/notebook/assets/VAE.html-d465ab46.js" as="script"><link rel="prefetch" href="/notebook/assets/soft-argmax.html-e9d8f707.js" as="script"><link rel="prefetch" href="/notebook/assets/元学习.html-3bfa8b9a.js" as="script"><link rel="prefetch" href="/notebook/assets/反投影（back-projecting）.html-6f4e64f6.js" as="script"><link rel="prefetch" href="/notebook/assets/对比学习.html-5acba346.js" as="script"><link rel="prefetch" href="/notebook/assets/训练技巧.html-6010d278.js" as="script"><link rel="prefetch" href="/notebook/assets/选择性搜索.html-c12ad804.js" as="script"><link rel="prefetch" href="/notebook/assets/A convnet for the 2020s.html-2bc17d6d.js" as="script"><link rel="prefetch" href="/notebook/assets/Co-occurrence Feature Learning from Skeleton Data.html-0b119cdf.js" as="script"><link rel="prefetch" href="/notebook/assets/DETRs Beat YOLOs on Real-time Object Detection.html-059b7cc2.js" as="script"><link rel="prefetch" href="/notebook/assets/Disentangling Identity and Pose for Facial Expression Recognition.html-f06badbb.js" as="script"><link rel="prefetch" href="/notebook/assets/Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction.html-6eabf3f7.js" as="script"><link rel="prefetch" href="/notebook/assets/EVOLVING REINFORCEMENT LEARNING ALGORITHMS.html-f3644afb.js" as="script"><link rel="prefetch" href="/notebook/assets/Lite DETR An Interleaved Multi-Scale Encoder for Efficient DETR.html-b8a67599.js" as="script"><link rel="prefetch" href="/notebook/assets/Long-term Human Motion Prediction with Scene Context.html-ba27a589.js" as="script"><link rel="prefetch" href="/notebook/assets/Real-time 2D Multi-Person Pose Estimation on CPU.html-5f3f363f.js" as="script"><link rel="prefetch" href="/notebook/assets/SSHFD Single Shot Human Fall Detection with Occlud.html-07421328.js" as="script"><link rel="prefetch" href="/notebook/assets/Scaling Up Your Kernels to 31x31 Revisiting Large.html-142b670f.js" as="script"><link rel="prefetch" href="/notebook/assets/SkeleMotion A New Representation of Skeleton Joint.html-da6c1581.js" as="script"><link rel="prefetch" href="/notebook/assets/Spatial Temporal Graph Convolutional Networks for.html-15a296fe.js" as="script"><link rel="prefetch" href="/notebook/assets/TSM Temporal Shift Module for Efficient Video Unde.html-ca0c4928.js" as="script"><link rel="prefetch" href="/notebook/assets/Towards Automated and Marker-less Parkinson Diseas.html-6428677a.js" as="script"><link rel="prefetch" href="/notebook/assets/Two-Stream Convolutional Networks for Action Recog.html-f82572e0.js" as="script"><link rel="prefetch" href="/notebook/assets/🌟LoGoNet_ Towards Accurate 3D Object Detection with Local-to-Global Cross-Modal Fusion.html-f6c8bb99.js" as="script"><link rel="prefetch" href="/notebook/assets/概述.html-a7e5df19.js" as="script"><link rel="prefetch" href="/notebook/assets/时间序列模型.html-9fc0dadf.js" as="script"><link rel="prefetch" href="/notebook/assets/线性代数.html-61a67473.js" as="script"><link rel="prefetch" href="/notebook/assets/存储器.html-2f2b73aa.js" as="script"><link rel="prefetch" href="/notebook/assets/系统总线.html-2d2d0cb1.js" as="script"><link rel="prefetch" href="/notebook/assets/计算机基本组成.html-1a73a14e.js" as="script"><link rel="prefetch" href="/notebook/assets/计算机的运算方法.html-b45a09c0.js" as="script"><link rel="prefetch" href="/notebook/assets/输入输出系统.html-f55069c6.js" as="script"><link rel="prefetch" href="/notebook/assets/高速缓存存储器.html-4125fa28.js" as="script"><link rel="prefetch" href="/notebook/assets/JDBC.html-1144b752.js" as="script"><link rel="prefetch" href="/notebook/assets/JSP.html-c6cac9bd.js" as="script"><link rel="prefetch" href="/notebook/assets/Servlet.html-9ba02088.js" as="script"><link rel="prefetch" href="/notebook/assets/Tomcat.html-06755505.js" as="script"><link rel="prefetch" href="/notebook/assets/监听器.html-de7634dd.js" as="script"><link rel="prefetch" href="/notebook/assets/缓存.html-7b0cf2e7.js" as="script"><link rel="prefetch" href="/notebook/assets/过滤器.html-e0793ac7.js" as="script"><link rel="prefetch" href="/notebook/assets/IO.html-2e0c5c17.js" as="script"><link rel="prefetch" href="/notebook/assets/反射.html-f7cdd524.js" as="script"><link rel="prefetch" href="/notebook/assets/容器.html-db6f490e.js" as="script"><link rel="prefetch" href="/notebook/assets/泛型.html-b1b6fc4a.js" as="script"><link rel="prefetch" href="/notebook/assets/注解.html-77360df3.js" as="script"><link rel="prefetch" href="/notebook/assets/概述.html-31096f5b.js" as="script"><link rel="prefetch" href="/notebook/assets/CRUD.html-94f6d3a4.js" as="script"><link rel="prefetch" href="/notebook/assets/ResultMap结果集映射.html-9375f298.js" as="script"><link rel="prefetch" href="/notebook/assets/lombok.html-00261dd2.js" as="script"><link rel="prefetch" href="/notebook/assets/一对多.html-86fe7b2a.js" as="script"><link rel="prefetch" href="/notebook/assets/分页.html-a20de2b4.js" as="script"><link rel="prefetch" href="/notebook/assets/动态SQL.html-d031d0b3.js" as="script"><link rel="prefetch" href="/notebook/assets/日志.html-5ed4396e.js" as="script"><link rel="prefetch" href="/notebook/assets/概念.html-34c34093.js" as="script"><link rel="prefetch" href="/notebook/assets/注解开发.html-ae7c8458.js" as="script"><link rel="prefetch" href="/notebook/assets/生命周期和作用域.html-86ba199e.js" as="script"><link rel="prefetch" href="/notebook/assets/第一个Mybatis程序.html-119f379c.js" as="script"><link rel="prefetch" href="/notebook/assets/缓存.html-62196616.js" as="script"><link rel="prefetch" href="/notebook/assets/配置解析.html-977e55e4.js" as="script"><link rel="prefetch" href="/notebook/assets/404.html-f9875e7b.js" as="script"><link rel="prefetch" href="/notebook/assets/index.html-ffe77b09.js" as="script"><link rel="prefetch" href="/notebook/assets/python.html-d21cf8d7.js" as="script"><link rel="prefetch" href="/notebook/assets/blog.html-08f51f62.js" as="script"><link rel="prefetch" href="/notebook/assets/git.html-efb6cc88.js" as="script"><link rel="prefetch" href="/notebook/assets/jetbrains.html-35e31cc3.js" as="script"><link rel="prefetch" href="/notebook/assets/three.html-21938d7b.js" as="script"><link rel="prefetch" href="/notebook/assets/virtualenv.html-5d77a6db.js" as="script"><link rel="prefetch" href="/notebook/assets/2023.04.27目标检测概述.html-16497519.js" as="script"><link rel="prefetch" href="/notebook/assets/2023.05.04FPN.html-f21d36d1.js" as="script"><link rel="prefetch" href="/notebook/assets/2023.05.11动作预测.html-806a0f9e.js" as="script"><link rel="prefetch" href="/notebook/assets/数据结构.html-92d7751b.js" as="script"><link rel="prefetch" href="/notebook/assets/Docker.html-3a6d2ed2.js" as="script"><link rel="prefetch" href="/notebook/assets/Maven.html-67a72842.js" as="script"><link rel="prefetch" href="/notebook/assets/Nginx.html-9d4a40d0.js" as="script"><link rel="prefetch" href="/notebook/assets/bash.html-b0cab74f.js" as="script"><link rel="prefetch" href="/notebook/assets/shell.html-8399ebb8.js" as="script"><link rel="prefetch" href="/notebook/assets/vim.html-075c198f.js" as="script"><link rel="prefetch" href="/notebook/assets/快速入门.html-b652b302.js" as="script"><link rel="prefetch" href="/notebook/assets/原理解析.html-453c0561.js" as="script"><link rel="prefetch" href="/notebook/assets/小知识点.html-576e16e5.js" as="script"><link rel="prefetch" href="/notebook/assets/注解开发.html-6060f006.js" as="script"><link rel="prefetch" href="/notebook/assets/AOP.html-6fa5fadb.js" as="script"><link rel="prefetch" href="/notebook/assets/一个spring程序.html-c21d7044.js" as="script"><link rel="prefetch" href="/notebook/assets/声明式事务.html-b2c0f311.js" as="script"><link rel="prefetch" href="/notebook/assets/整合Mybatis.html-a347acec.js" as="script"><link rel="prefetch" href="/notebook/assets/Eureka.html-244a3c0f.js" as="script"><link rel="prefetch" href="/notebook/assets/Feign.html-62490d03.js" as="script"><link rel="prefetch" href="/notebook/assets/Hystrix.html-902868c2.js" as="script"><link rel="prefetch" href="/notebook/assets/Ribbon.html-220ad043.js" as="script"><link rel="prefetch" href="/notebook/assets/Zuul.html-19734fdf.js" as="script"><link rel="prefetch" href="/notebook/assets/初识SpringCloud.html-ca90e03a.js" as="script"><link rel="prefetch" href="/notebook/assets/Jdbc.html-73f4bf71.js" as="script"><link rel="prefetch" href="/notebook/assets/Shiro.html-b5e42919.js" as="script"><link rel="prefetch" href="/notebook/assets/Swagger.html-163a1cd4.js" as="script"><link rel="prefetch" href="/notebook/assets/Web静态资源处理.html-4eacdfc4.js" as="script"><link rel="prefetch" href="/notebook/assets/thymeleaf.html-6fe41ccd.js" as="script"><link rel="prefetch" href="/notebook/assets/分布式.html-e4e536cf.js" as="script"><link rel="prefetch" href="/notebook/assets/异步、定时、邮件任务.html-e7fe2c2a.js" as="script"><link rel="prefetch" href="/notebook/assets/整合mybatis.html-dc407a1d.js" as="script"><link rel="prefetch" href="/notebook/assets/第一天.html-5b45ced2.js" as="script"><link rel="prefetch" href="/notebook/assets/第二天.html-5dda30f7.js" as="script"><link rel="prefetch" href="/notebook/assets/ES6补充.html-668234e1.js" as="script"><link rel="prefetch" href="/notebook/assets/Vue基础.html-91a7a31f.js" as="script"><link rel="prefetch" href="/notebook/assets/Vue项目部署.html-1c3eb1d8.js" as="script"><link rel="prefetch" href="/notebook/assets/threejs的使用.html-350e2816.js" as="script"><link rel="prefetch" href="/notebook/assets/单文件组件.html-5bc8b3be.js" as="script"><link rel="prefetch" href="/notebook/assets/脚手架.html-ca084d7d.js" as="script"><link rel="prefetch" href="/notebook/assets/页面title.html-979513ef.js" as="script"><link rel="prefetch" href="/notebook/assets/Bitmaps.html-b806a27f.js" as="script"><link rel="prefetch" href="/notebook/assets/Hyperloglog.html-ccbee38e.js" as="script"><link rel="prefetch" href="/notebook/assets/Redis的基本事务操作.html-9277f0e7.js" as="script"><link rel="prefetch" href="/notebook/assets/redis-benchmark性能测试.html-0c4eea37.js" as="script"><link rel="prefetch" href="/notebook/assets/基本知识点.html-2442010c.js" as="script"><link rel="prefetch" href="/notebook/assets/安装.html-44dabf62.js" as="script"><link rel="prefetch" href="/notebook/assets/集成Redis.html-e0fe8e54.js" as="script"><link rel="prefetch" href="/notebook/assets/Center_pooling.html-7434a9ae.js" as="script"><link rel="prefetch" href="/notebook/assets/Focal_Loss.html-c736ff86.js" as="script"><link rel="prefetch" href="/notebook/assets/MAE.html-4785c79d.js" as="script"><link rel="prefetch" href="/notebook/assets/NMS非极大值抑制.html-8694503d.js" as="script"><link rel="prefetch" href="/notebook/assets/corner_pooling.html-1e3cd173.js" as="script"><link rel="prefetch" href="/notebook/assets/smooth_L1_loss.html-f9ed61b5.js" as="script"><link rel="prefetch" href="/notebook/assets/CMU motion capture.html-e2773175.js" as="script"><link rel="prefetch" href="/notebook/assets/Human3.6M.html-1f34af7d.js" as="script"><link rel="prefetch" href="/notebook/assets/Adapters.html-46c37106.js" as="script"><link rel="prefetch" href="/notebook/assets/CLIP.html-03a7b405.js" as="script"><link rel="prefetch" href="/notebook/assets/Faster_RCNN.html-4c33a2fb.js" as="script"><link rel="prefetch" href="/notebook/assets/MoCo.html-99e46914.js" as="script"><link rel="prefetch" href="/notebook/assets/RoI池化层.html-ab6c63f5.js" as="script"><link rel="prefetch" href="/notebook/assets/TCN.html-81df50ac.js" as="script"><link rel="prefetch" href="/notebook/assets/VAE.html-ff059abf.js" as="script"><link rel="prefetch" href="/notebook/assets/soft-argmax.html-238b0d93.js" as="script"><link rel="prefetch" href="/notebook/assets/元学习.html-8e751b92.js" as="script"><link rel="prefetch" href="/notebook/assets/反投影（back-projecting）.html-3e3d03e7.js" as="script"><link rel="prefetch" href="/notebook/assets/对比学习.html-834d7bdc.js" as="script"><link rel="prefetch" href="/notebook/assets/训练技巧.html-856fd83a.js" as="script"><link rel="prefetch" href="/notebook/assets/选择性搜索.html-30e2c070.js" as="script"><link rel="prefetch" href="/notebook/assets/A convnet for the 2020s.html-901e6ef5.js" as="script"><link rel="prefetch" href="/notebook/assets/Co-occurrence Feature Learning from Skeleton Data.html-0e29fe70.js" as="script"><link rel="prefetch" href="/notebook/assets/DETRs Beat YOLOs on Real-time Object Detection.html-2021478c.js" as="script"><link rel="prefetch" href="/notebook/assets/Disentangling Identity and Pose for Facial Expression Recognition.html-23fc93ca.js" as="script"><link rel="prefetch" href="/notebook/assets/Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction.html-65f68e7a.js" as="script"><link rel="prefetch" href="/notebook/assets/EVOLVING REINFORCEMENT LEARNING ALGORITHMS.html-847e3006.js" as="script"><link rel="prefetch" href="/notebook/assets/Lite DETR An Interleaved Multi-Scale Encoder for Efficient DETR.html-ed1f2a21.js" as="script"><link rel="prefetch" href="/notebook/assets/Long-term Human Motion Prediction with Scene Context.html-a12c42cf.js" as="script"><link rel="prefetch" href="/notebook/assets/Real-time 2D Multi-Person Pose Estimation on CPU.html-00850641.js" as="script"><link rel="prefetch" href="/notebook/assets/SSHFD Single Shot Human Fall Detection with Occlud.html-fe4ba61a.js" as="script"><link rel="prefetch" href="/notebook/assets/Scaling Up Your Kernels to 31x31 Revisiting Large.html-9a8b9fcd.js" as="script"><link rel="prefetch" href="/notebook/assets/SkeleMotion A New Representation of Skeleton Joint.html-f48d52c4.js" as="script"><link rel="prefetch" href="/notebook/assets/Spatial Temporal Graph Convolutional Networks for.html-f7e0dab4.js" as="script"><link rel="prefetch" href="/notebook/assets/TSM Temporal Shift Module for Efficient Video Unde.html-e0f7bbc5.js" as="script"><link rel="prefetch" href="/notebook/assets/Towards Automated and Marker-less Parkinson Diseas.html-a172ea8a.js" as="script"><link rel="prefetch" href="/notebook/assets/Two-Stream Convolutional Networks for Action Recog.html-7320af12.js" as="script"><link rel="prefetch" href="/notebook/assets/🌟LoGoNet_ Towards Accurate 3D Object Detection with Local-to-Global Cross-Modal Fusion.html-164878e0.js" as="script"><link rel="prefetch" href="/notebook/assets/概述.html-82ca03b1.js" as="script"><link rel="prefetch" href="/notebook/assets/时间序列模型.html-5eb2c87a.js" as="script"><link rel="prefetch" href="/notebook/assets/线性代数.html-9d56d107.js" as="script"><link rel="prefetch" href="/notebook/assets/存储器.html-f1724edc.js" as="script"><link rel="prefetch" href="/notebook/assets/系统总线.html-65a88c47.js" as="script"><link rel="prefetch" href="/notebook/assets/计算机基本组成.html-a6e6ab30.js" as="script"><link rel="prefetch" href="/notebook/assets/计算机的运算方法.html-06419318.js" as="script"><link rel="prefetch" href="/notebook/assets/输入输出系统.html-70cdf8b9.js" as="script"><link rel="prefetch" href="/notebook/assets/高速缓存存储器.html-c82d9391.js" as="script"><link rel="prefetch" href="/notebook/assets/JDBC.html-db742cd3.js" as="script"><link rel="prefetch" href="/notebook/assets/JSP.html-5694e9e1.js" as="script"><link rel="prefetch" href="/notebook/assets/Servlet.html-3f528292.js" as="script"><link rel="prefetch" href="/notebook/assets/Tomcat.html-8f5df9f1.js" as="script"><link rel="prefetch" href="/notebook/assets/监听器.html-6dce5d6f.js" as="script"><link rel="prefetch" href="/notebook/assets/缓存.html-bde43d43.js" as="script"><link rel="prefetch" href="/notebook/assets/过滤器.html-f022c23a.js" as="script"><link rel="prefetch" href="/notebook/assets/IO.html-8ff1d015.js" as="script"><link rel="prefetch" href="/notebook/assets/反射.html-74e5bb6a.js" as="script"><link rel="prefetch" href="/notebook/assets/容器.html-eeb7b705.js" as="script"><link rel="prefetch" href="/notebook/assets/泛型.html-909eb974.js" as="script"><link rel="prefetch" href="/notebook/assets/注解.html-5e39bee7.js" as="script"><link rel="prefetch" href="/notebook/assets/概述.html-61749c53.js" as="script"><link rel="prefetch" href="/notebook/assets/CRUD.html-f0ca6cf6.js" as="script"><link rel="prefetch" href="/notebook/assets/ResultMap结果集映射.html-d3230fa0.js" as="script"><link rel="prefetch" href="/notebook/assets/lombok.html-27a4c600.js" as="script"><link rel="prefetch" href="/notebook/assets/一对多.html-3397922b.js" as="script"><link rel="prefetch" href="/notebook/assets/分页.html-9eec0880.js" as="script"><link rel="prefetch" href="/notebook/assets/动态SQL.html-8d138e1b.js" as="script"><link rel="prefetch" href="/notebook/assets/日志.html-3d803ee9.js" as="script"><link rel="prefetch" href="/notebook/assets/概念.html-78ac39d6.js" as="script"><link rel="prefetch" href="/notebook/assets/注解开发.html-88569228.js" as="script"><link rel="prefetch" href="/notebook/assets/生命周期和作用域.html-c5d10be9.js" as="script"><link rel="prefetch" href="/notebook/assets/第一个Mybatis程序.html-e9c69dc2.js" as="script"><link rel="prefetch" href="/notebook/assets/缓存.html-e08eaa72.js" as="script"><link rel="prefetch" href="/notebook/assets/配置解析.html-4ecd170f.js" as="script"><link rel="prefetch" href="/notebook/assets/404.html-4e6aa668.js" as="script"><link rel="prefetch" href="/notebook/assets/style-e9220a04.js" as="script"><link rel="prefetch" href="/notebook/assets/docsearch-1d421ddb.js" as="script"><link rel="prefetch" href="/notebook/assets/index-ade63bb5.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/notebook/" class=""><!----><span class="site-name">记录</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/notebook/知识/数据结构.html" class="" aria-label="测试"><!--[--><!--]--> 测试 <!--[--><!--]--></a></div><div class="navbar-item"><a class="external-link" href="https://github.com/dtenghao?tab=repositories" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!--[--><div id="docsearch-container" style="display:none;"></div><div><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"><svg width="15" height="15" class="DocSearch-Control-Key-Icon"><path d="M4.505 4.496h2M5.505 5.496v5M8.216 4.496l.055 5.993M10 7.5c.333.333.5.667.5 1v2M12.326 4.5v5.996M8.384 4.496c1.674 0 2.116 0 2.116 1.5s-.442 1.5-2.116 1.5M3.205 9.303c-.09.448-.277 1.21-1.241 1.203C1 10.5.5 9.513.5 8V7c0-1.57.5-2.5 1.464-2.494.964.006 1.134.598 1.24 1.342M12.553 10.5h1.953" stroke-width="1.2" stroke="currentColor" fill="none" stroke-linecap="square"></path></svg></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/notebook/知识/数据结构.html" class="" aria-label="测试"><!--[--><!--]--> 测试 <!--[--><!--]--></a></div><div class="navbar-item"><a class="external-link" href="https://github.com/dtenghao?tab=repositories" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading">目录 <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/notebook/%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/obsidian%E9%85%8D%E7%BD%AE.html#外观" class="router-link-active router-link-exact-active sidebar-item" aria-label="外观"><!--[--><!--]--> 外观 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="外观" tabindex="-1"><a class="header-anchor" href="#外观" aria-hidden="true">#</a> 外观</h1><ol><li>安装Anu主题</li><li>将配置文件css导入 <img src="/* @settings
+
+name: yaozhuwa@css
+id: yaozhuwa@css
+settings:
+    -   
+        id: blank-line-tweak
+        title: Live Preview 空白行优化V2.0
+        description: 见 https://forum-zh.obsidian.md/t/topic/12515
+        type: class-toggle
+        default: true
+    -   
+        id: outline-tweak
+        title: 大纲美化
+        description: 见 https://forum-zh.obsidian.md/t/topic/11219
+        type: class-toggle
+        default: true
+    -   
+        id: seamless-embed
+        title: 内嵌文档自然显示
+        description: 语法：![[嵌入的文档|seamless]]，来自 AnuPpuccin 主题
+        type: class-toggle
+        default: true
+    -
+        id: clutter-free-headings
+        title: 编辑状态使用H1 H2 替代「#」(显示标题级别)
+        title.zh: 编辑状态使用H1 H2 替代「#」(显示标题级别)
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    - 
+        id: code-line-number
+        title: Code box showing line numbers (Editing Mode)
+        title.zh: 代码显示行号 （编辑模式）
+        description: csslass declares code-line-number to be available for the current document, copy from blue-topaz theme
+        description.zh:  csslass 声明 code-line-number 可对单篇note生效，来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    - 
+        id: context-tweak
+        title: 排版优化
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: increase-paragraph-gap
+        title: 段落间距增大
+        description: 来自 yaozhuwa
+        type: class-toggle
+        default: true
+    -
+        id: increase-headings-gap
+        title: 标题与正文间距增大
+        description: 来自 yaozhuwa
+        type: class-toggle
+        default: true
+    -
+        id: center-image
+        title: 图片居中显示
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: false
+    -
+        id: bigger-math-font
+        title: 公式字体增大
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    - 
+        id: table-tweak
+        title: 表格优化
+        type: heading
+        level: 2
+        collapsed: false
+    -
+        id: full-width-table
+        title: 全宽表格
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    -
+        id: table-line-number
+        title: 表格行号显示
+        description: 来自 minimal 主题
+        type: class-toggle
+        default: true
+
+*/
+
+/* 美化的大纲 */
+body {
+  
+  /* 引导线粗细 */
+  --outline-guideline-width: 2px;
+  
+  /* 引导线颜色 */
+  --outline-guideline-color: hsla(var(--color-accent-hsl), 0.9);
+  
+  /* 一行高度 */
+  --outline-item-height: calc(var(--nav-item-size) * 1.8);
+  
+  /* 鼠标经过颜色 */
+  --nav-item-background-hover: hsla(var(--color-accent-hsl), 0.15);
+  
+  --accent-active: hsl(
+    var(--accent-h),
+    var(--accent-s),
+    calc(var(--accent-l) + 4%)
+  );
+}
+
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .collapse-icon {
+  padding-inline-end: var(--size-2-3);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .collapse-icon::before {
+  content: &quot;&quot; !important;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item {
+  position: relative;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self {
+  position: relative;
+  margin-bottom: 0;
+  white-space: nowrap;
+  margin-top: -1px; /* fix item gap */
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner {
+  padding-left: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: var(--outline-item-height);
+  line-height: var(--outline-item-height);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner::before {
+  content: &quot;&quot;;
+  width: var(--size-4-1);
+  height: var(--size-4-1);
+  border: 2px solid var(--outline-guideline-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-icon ~ .tree-item-inner {
+  padding-left: 4px;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-icon ~ .tree-item-inner::before {
+  content: none;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item.is-collapsed .tree-item-icon::before {
+  box-shadow: 0 0 0 4px var(--background-modifier-hover);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item::after {
+  content: &quot;&quot;;
+  width: var(--outline-guideline-width);
+  position: absolute;
+  background-color: transparent;
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: -10px;
+  height: calc(100% - var(--outline-item-height) + var(--size-4-8));
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon {
+  cursor: pointer;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon::before {
+  width: var(--size-4-2);
+  height: var(--size-4-2);
+  background-color: var(--outline-guideline-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon svg {
+  display: block;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon svg path {
+  display: none;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover &gt; .tree-item-children &gt; .tree-item::after {
+  background-color: var(--outline-guideline-color);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover &gt; .tree-item-self:hover + .tree-item-children .tree-item::after {
+  background-color: transparent;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover &gt; .tree-item-children &gt; .tree-item:hover::after, .outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover &gt; .tree-item-children &gt; .tree-item:hover ~ .tree-item::after {
+  background-color: transparent;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover &gt; .tree-item-children &gt; .tree-item:hover::before {
+  content: &quot;&quot;;
+  position: absolute;
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: -10px;
+  bottom: calc(100% - (var(--outline-item-height) + var(--size-4-2)) / 2 - 1px);
+  width: 16px;
+  border-bottom-left-radius: var(--radius-m);
+  border-bottom: var(--outline-guideline-width) solid var(--outline-guideline-color);
+  border-left: var(--outline-guideline-width) solid var(--outline-guideline-color);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline :is(.tree-item-children, .tree-item-self .tree-item-self) {
+  padding-left: 0;
+  margin-left: var(--size-4-5);
+  border-left: none;
+}
+
+/* 公式字体 */
+.bigger-math-font .math.math-block mjx-container[jax=&#39;CHTML&#39;] {
+  outline: none;
+  font-size: 1.2em;
+}
+
+/* fix banners in new window */
+:root
+{
+    --banner-height: 300px;
+    --banner-internal-embed-height: 200px;
+    --banner-preview-embed-height: 120px;
+}
+
+/* headers */
+/*编辑状态是否显示H1 H2标记*/
+/*适配Live preview模式*/
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header):not(.cm-hashtag):not(.cm-inline-code):not(.cm-highlight).cm-header::before {
+  font-size: 0.6rem;
+  width: auto;
+  margin-right: 1px;
+  border-radius: var(--radius-xs);
+  color: var(--text-muted);
+  overflow: visible;
+  font-family: var(--font-default);
+  font-weight: normal !important;
+}
+
+.clutter-free-headings div.mod-cm6.is-live-preview div:not(.cm-active).cm-line .cm-header ~ span.cm-header::before,
+.clutter-free-headings div.mod-cm6.is-live-preview div:not(.cm-active).cm-line .cm-header.cm-hmd-internal-link::before {
+  display: none;
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-1::before {
+  content: &#39;H1&#39;;
+  margin-top: calc(var(--h1-size) - 0.1em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-2::before {
+  content: &#39;H2&#39;;
+  margin-top: calc(var(--h2-size) - 0.2em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-3::before {
+  content: &#39;H3&#39;;
+  margin-top: calc(var(--h3-size) - 0.2em);
+}
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-4::before {
+  content: &#39;H4&#39;;
+  margin-top: calc(var(--h4-size) - 0.3em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-5::before {
+  content: &#39;H5&#39;;
+  margin-top: calc(var(--h5-size) - 0.4em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-6::before {
+  content: &#39;H6&#39;;
+  margin-top: calc(var(--h6-size) - 0.4em);
+}
+
+/*适配source mode 模式*/
+.clutter-free-headings div.mod-cm6:not(.is-live-preview) div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header ~ span.cm-header::before
+{
+  display: none;
+}
+ .clutter-free-headings div.mod-cm6:not(.is-live-preview) div:not(.cm-active).cm-line span.cm-formatting-header {
+  display:none;
+}
+/*适配传统模式*/
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line.hmd-inactive-line span.cm-formatting-header::before {
+  position: absolute;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  width: auto;
+  margin-left: -18px;
+  padding: 0px 2px;
+  border-radius: var(--radius-xs);
+  color: var(--text-muted);
+  overflow: visible;
+  font-family: var(--font-default);
+  font-weight: normal !important;
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line:not(.hmd-inactive-line) span.cm-formatting-header::before {
+  position: absolute;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  width: auto;
+  margin-left: -6px;
+  border-radius: var(--radius-xs);
+  color: var(--text-muted);
+  overflow: visible;
+  font-family: var(--font-default);
+  font-weight: normal !important;
+}
+
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line span.cm-formatting-header {
+  color: transparent !important;
+  background: none;
+}
+
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line span.cm-formatting-header-1::before {
+  content: &#39;H1&#39;;
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line span.cm-formatting-header-2::before {
+  content: &#39;H2&#39;;
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line span.cm-formatting-header-3::before {
+  content: &#39;H3&#39;;
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line span.cm-formatting-header-4::before {
+  content: &#39;H4&#39;;
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line span.cm-formatting-header-5::before {
+  content: &#39;H5&#39;;
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)&gt;.CodeMirror-line span.cm-formatting-header-6::before {
+  content: &#39;H6&#39;;
+}
+
+
+/* 代码行号显示 */
+.code-line-number .HyperMD-codeblock-begin {
+  counter-reset: line-numbers;
+}
+
+.code-line-number .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end) {
+  padding-left: 3em;
+  position: relative;
+}
+  
+.code-line-number .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
+  align-items: flex-start;
+  color: var(--text-faint);
+  content: counter(line-numbers);
+  counter-increment: line-numbers;
+  display: flex;
+  font-size: 0.8em;
+  height: 100%;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  text-align: right;
+  width: 2em;
+  padding-right: 0.5em;
+  bottom: -2px;
+  border-right: 1px solid var(--scrollbar-thumb-bg);
+}
+
+.code-line-number .HyperMD-codeblock.cm-line.cm-active:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
+  color: var(--color-accent);
+}
+
+.code-line-number .HyperMD-codeblock .cm-foldPlaceholder::before {
+  display: none;
+}
+
+.center-image :is(.markdown-preview-view,.markdown-rendered) img:not([class*=&quot;emoji&quot;]) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-image .print :is(.markdown-preview-view,.markdown-rendered) img:not([class*=&quot;emoji&quot;]) {
+  display: block;
+}
+
+.center-image .view-content img:not([class*=&quot;emoji&quot;]) {
+  cursor: zoom-in;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* 预览模式空白行优化 https://forum-zh.obsidian.md/t/topic/12515 */
+.blank-line-tweak .is-live-preview [class=&quot;hr cm-line&quot;] {
+    line-height: 0.6em;
+}
+
+.blank-line-tweak .is-live-preview [class=&quot;cm-active cm-line&quot;] {
+    transition: 0.5s line-height;
+}
+
+.blank-line-tweak .is-live-preview :is([class=cm-line]:has(+ :is(.hr))), .blank-line-tweak  .is-live-preview :is(.HyperMD-quote, .cm-callout, .HyperMD-list-line) + [class=&quot;cm-line&quot;] {
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+    line-height: 0.5;
+    transition: 0.5s line-height,0.5s background-color;
+    border-radius: var(--radius-s);
+}
+
+.blank-line-tweak .is-live-preview :is([class=cm-line]:has(+ :is(.hr))):hover, .blank-line-tweak .is-live-preview :is(.HyperMD-quote, .cm-callout, .HyperMD-list-line) + [class=&quot;cm-line&quot;]:hover {
+    background-color: hsla(var(--color-accent-hsl), 0.4);
+}
+
+.full-width-table :is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table) {
+        width: 100%;/*表格占页面的宽度*/
+        border-collapse: collapse;
+        overflow: auto;
+        margin: 5px auto;
+}
+
+/* 表格优化，From minimal theme */
+.table-line-number table:not(.calendar) {
+  counter-reset: section
+}
+
+.table-line-number table:not(.calendar)&gt;thead&gt;tr&gt;th:first-child::before {
+  content: &quot; &quot;;
+  padding-right: .5em;
+  display: inline-block;
+  min-width: 2em
+}
+
+.table-line-number table:not(.calendar)&gt;tbody&gt;tr&gt;td:first-child::before {
+  counter-increment: section;
+  content: counter(section) &quot; &quot;;
+  text-align: center;
+  padding-right: .5em;
+  display: inline-block;
+  min-width: 2em;
+/*  color: var(#6c6e70);*/
+  font-variant-numeric: tabular-nums
+}
+
+/*段落间距优化*/
+.increase-paragraph-gap div.cm-line {
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+
+
+.increase-paragraph-gap div.HyperMD-list-line.cm-line{
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
+}
+
+.increase-paragraph-gap div.HyperMD-codeblock.cm-line, div.hr{
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+}
+
+.increase-paragraph-gap p&gt;br {
+    content: &#39;&#39;;
+    margin-top: 0.5em;
+    display: block;
+}
+
+/* 标题间距优化 */ 
+.increase-headings-gap div.HyperMD-header.cm-line{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+/* 内嵌文档自然显示，来自 AnuPpuccin 主题 */
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed {
+  --embed-padding: 0;
+  border-width: 0px;
+}
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed &gt; .markdown-embed-title {
+  width: fit-content;
+  position: absolute;
+  left: unset;
+  right: 33px;
+  top: 5px;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed &gt; .markdown-embed-link {
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed:hover &gt; .markdown-embed-title, .internal-embed[alt*=seamless].markdown-embed:hover &gt; .markdown-embed-link {
+  opacity: 1;
+  transition: opacity 0.1s;
+}
+" alt=""><img src="/* from blue-topaz */
+.theme-dark {
+  --bg-color-notebook: #2a2825;
+  --grid-notebook-line-color-1: #c7c7c71f;
+  --grid-notebook-line-color-2: #74747440;
+  --dotted-notebook-dot-color: #c7c7c71f;
+}
+.theme-light {
+  --bg-color-notebook: #fef9f1;
+  --grid-notebook-line-color-1: #c7c7c740;
+  --grid-notebook-line-color-2: #afafaf40;
+  --dotted-notebook-dot-color: #c7c7c780;
+}
+
+/*notebook background*/
+.markdown-reading-view .markdown-rendered, .markdown-source-view.mod-cm6 .cm-scroller {
+/*  background: #2a2825;*/
+/*  background: var(--bg-color-notebook);*/
+  background-image:
+     linear-gradient(var(--grid-notebook-line-color-2) 1px, transparent 0),
+     linear-gradient(90deg, var(--grid-notebook-line-color-2) 1px,transparent 0),
+     linear-gradient(var(--grid-notebook-line-color-1) 1px,
+     transparent 0),
+     linear-gradient(90deg,var(--grid-notebook-line-color-1) 1px,
+     transparent 0);
+  background-size: 75px 75px, 75px 75px, 15px 15px, 15px 15px;
+}
+.markdown-reading-view .markdown-rendered, .markdown-source-view.mod-cm6 .cm-scroller {
+  background-attachment: local !important;
+}" alt=""><img src="@charset &quot;UTF-8&quot;;
+/* @settings
+name: AnuPpuccin Themes Extended
+id: anuppuccin-theme-settings-extended
+settings:
+  -
+    id: anp-theme-ext-light
+    title: Toggle extended light theme
+    type: class-toggle
+  -
+    id: anp-theme-ext-dark
+    title: Toggle extended dark theme
+    type: class-toggle
+  -
+    id: anp-theme-ext-amoled
+    title: Toggle amoled black on all themes
+    type: class-toggle
+  - 
+    id: catppuccin-theme-extended
+    title: Light theme flavor
+    description: Select your preferred light mode flavor
+    type: class-select
+    allowEmpty: false
+    default: ctp-nord-light
+    options:
+        - 
+            label: Atom
+            value: ctp-atom-light
+        - 
+            label: Everforest
+            value: ctp-everforest-light
+        - 
+            label: Gruvbox
+            value: ctp-gruvbox-light
+        - 
+            label: Material Mint
+            value: ctp-material-mint-light
+        - 
+            label: Luminescence
+            value: ctp-luminescence-light
+        - 
+            label: Nord
+            value: ctp-nord-light
+        - 
+            label: Notion
+            value: ctp-notion-light
+        - 
+            label: Sandy Beaches
+            value: ctp-sandy-beaches-light
+        - 
+            label: Solarized
+            value: ctp-solarized-light
+  - 
+    id: catppuccin-theme-dark-extended
+    title: Dark theme flavor
+    description: Select your preferred dark mode flavor
+    type: class-select
+    allowEmpty: false
+    default: ctp-nord-dark
+    options:
+        -
+            label: AMOLED Dark
+            value: ctp-amoled-dark
+        -
+            label: Atom
+            value: ctp-atom-dark
+        -
+            label: Coffee
+            value: ctp-coffee-dark
+        -
+            label: Dark (Generic)
+            value: ctp-generic-dark
+        -
+            label: Dracula
+            value: ctp-dracula
+        -
+            label: Everforest
+            value: ctp-everforest-dark
+        -
+            label: Gruvbox
+            value: ctp-gruvbox-dark
+        -
+            label: Kanagawa
+            value: ctp-kanagawa-dark
+        -
+            label: Material Mint
+            value: ctp-material-mint-dark
+        -
+            label: Nord
+            value: ctp-nord-dark
+        -
+            label: Notion
+            value: ctp-notion-dark
+        -
+            label: Nord Dark (Custom palette)
+            value: ctp-nord-darker
+        -
+            label: Rosé Pine
+            value: ctp-rosepine-dark
+        -
+            label: Rosebox
+            value: ctp-rosebox
+        -
+            label: Royal Velvet
+            value: ctp-royal-velvet
+        -
+            label: Solarized
+            value: ctp-solarized-dark
+*/
+.theme-dark.anp-theme-ext-dark.ctp-rosebox {
+  --ctp-accent: 165, 117, 98;
+  --background-modifier-border: rgb(51, 51, 51);
+}
+
+.theme-light.anp-theme-ext-light.ctp-nord-light {
+  --ctp-accent: 136, 192, 208;
+}
+
+.theme-light.anp-theme-ext-light.ctp-material-mint-light {
+  --ctp-accent: var(--ctp-teal);
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-material-mint-dark {
+  --ctp-accent: var(--ctp-teal);
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-nord-dark {
+  --ctp-accent: 136, 192, 208;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-nord-darker {
+  --ctp-accent: 136, 192, 208;
+}
+
+.theme-light.anp-theme-ext-light.ctp-atom-light {
+  --ctp-accent: var(--ctp-blue);
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-atom-dark {
+  --ctp-accent: var(--ctp-blue);
+}
+
+.theme-dark.anp-theme-ext-amoled {
+  --ctp-ext-surface2: 80, 80, 80 !important;
+  --ctp-ext-surface1: 50, 50, 50 !important;
+  --ctp-ext-surface0: 30, 30, 30 !important;
+  --ctp-ext-base: 10, 10, 10 !important;
+  --ctp-ext-mantle: 5, 5, 5 !important;
+  --ctp-ext-crust: 0, 0, 0 !important;
+}
+
+.theme-light.anp-theme-ext-light.ctp-atom-light, .anp-theme-ext-light.ctp-atom-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 229, 148, 121;
+  --ctp-ext-flamingo: 197, 103, 131;
+  --ctp-ext-pink: 166, 37, 104;
+  --ctp-ext-mauve: 166, 37, 164;
+  --ctp-ext-red: 231, 85, 69;
+  --ctp-ext-maroon: 231, 101, 69;
+  --ctp-ext-peach: 227, 86, 73;
+  --ctp-ext-yellow: 152, 104, 0;
+  --ctp-ext-green: 78, 162, 76;
+  --ctp-ext-teal: 0, 188, 182;
+  --ctp-ext-sky: 0, 132, 188;
+  --ctp-ext-sapphire: 0, 119, 188;
+  --ctp-ext-blue: 61, 116, 246;
+  --ctp-ext-lavender: 152, 84, 151;
+  --ctp-ext-text: 56, 58, 66;
+  --ctp-ext-subtext1: 77, 80, 91;
+  --ctp-ext-subtext0: 99, 102, 116;
+  --ctp-ext-overlay2: 123, 124, 138;
+  --ctp-ext-overlay1: 148, 148, 158;
+  --ctp-ext-overlay0: 174, 173, 179;
+  --ctp-ext-surface2: 201, 197, 197;
+  --ctp-ext-surface1: 218, 216, 216;
+  --ctp-ext-surface0: 237, 237, 237;
+  --ctp-ext-base: 250, 250, 250;
+  --ctp-ext-mantle: 234, 234, 235;
+  --ctp-ext-crust: 219, 219, 220;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-amoled-dark, .anp-theme-ext-dark.ctp-amoled-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 245, 224, 220;
+  --ctp-ext-flamingo: 242, 205, 205;
+  --ctp-ext-pink: 245, 194, 231;
+  --ctp-ext-mauve: 203, 166, 247;
+  --ctp-ext-red: 243, 139, 168;
+  --ctp-ext-maroon: 235, 160, 172;
+  --ctp-ext-peach: 250, 179, 135;
+  --ctp-ext-yellow: 249, 226, 175;
+  --ctp-ext-green: 166, 227, 161;
+  --ctp-ext-teal: 148, 226, 213;
+  --ctp-ext-sky: 137, 220, 235;
+  --ctp-ext-sapphire: 116, 199, 236;
+  --ctp-ext-blue: 135, 176, 249;
+  --ctp-ext-lavender: 180, 190, 254;
+  --ctp-ext-text: 255, 255, 255;
+  --ctp-ext-subtext1: 210, 210, 210;
+  --ctp-ext-subtext0: 189, 189, 189;
+  --ctp-ext-overlay2: 168, 168, 168;
+  --ctp-ext-overlay1: 147, 147, 147;
+  --ctp-ext-overlay0: 126, 126, 126;
+  --ctp-ext-surface2: 80, 80, 80;
+  --ctp-ext-surface1: 50, 50, 50;
+  --ctp-ext-surface0: 30, 30, 30;
+  --ctp-ext-base: 10, 10, 10;
+  --ctp-ext-mantle: 5, 5, 5;
+  --ctp-ext-crust: 0, 0, 0;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-atom-dark, .anp-theme-ext-dark.ctp-atom-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 226, 196, 168;
+  --ctp-ext-flamingo: 238, 187, 216;
+  --ctp-ext-pink: 221, 120, 211;
+  --ctp-ext-mauve: 198, 120, 221;
+  --ctp-ext-red: 224, 108, 117;
+  --ctp-ext-maroon: 224, 121, 108;
+  --ctp-ext-peach: 209, 154, 102;
+  --ctp-ext-yellow: 229, 192, 123;
+  --ctp-ext-green: 152, 195, 121;
+  --ctp-ext-teal: 86, 182, 194;
+  --ctp-ext-sky: 83, 185, 174;
+  --ctp-ext-sapphire: 93, 185, 187;
+  --ctp-ext-blue: 97, 175, 239;
+  --ctp-ext-lavender: 170, 127, 183;
+  --ctp-ext-text: 221, 222, 223;
+  --ctp-ext-subtext1: 171, 171, 171;
+  --ctp-ext-subtext0: 135, 135, 135;
+  --ctp-ext-overlay2: 108, 115, 132;
+  --ctp-ext-overlay1: 96, 102, 118;
+  --ctp-ext-overlay0: 80, 85, 98;
+  --ctp-ext-surface2: 66, 73, 88;
+  --ctp-ext-surface1: 57, 63, 76;
+  --ctp-ext-surface0: 48, 53, 64;
+  --ctp-ext-base: 39, 43, 52;
+  --ctp-ext-mantle: 33, 37, 43;
+  --ctp-ext-crust: 26, 30, 36;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-coffee-dark, .anp-theme-ext-dark.ctp-coffee-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 236, 222, 213;
+  --ctp-ext-flamingo: 234, 195, 214;
+  --ctp-ext-pink: 234, 159, 194;
+  --ctp-ext-mauve: 215, 159, 234;
+  --ctp-ext-red: 234, 159, 159;
+  --ctp-ext-maroon: 234, 169, 159;
+  --ctp-ext-peach: 234, 178, 159;
+  --ctp-ext-yellow: 234, 201, 159;
+  --ctp-ext-green: 174, 213, 165;
+  --ctp-ext-teal: 164, 234, 192;
+  --ctp-ext-sky: 174, 224, 206;
+  --ctp-ext-sapphire: 163, 225, 235;
+  --ctp-ext-blue: 163, 200, 235;
+  --ctp-ext-lavender: 182, 186, 226;
+  --ctp-ext-text: 250, 218, 195;
+  --ctp-ext-subtext1: 247, 204, 172;
+  --ctp-ext-subtext0: 235, 192, 160;
+  --ctp-ext-overlay2: 199, 163, 136;
+  --ctp-ext-overlay1: 173, 144, 124;
+  --ctp-ext-overlay0: 120, 102, 96;
+  --ctp-ext-surface2: 94, 84, 86;
+  --ctp-ext-surface1: 85, 77, 82;
+  --ctp-ext-surface0: 76, 70, 78;
+  --ctp-ext-base: 58, 56, 69;
+  --ctp-ext-mantle: 47, 46, 56;
+  --ctp-ext-crust: 38, 37, 45;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-dracula, .anp-theme-ext-dark.ctp-dracula .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 246, 201, 153;
+  --ctp-ext-flamingo: 245, 189, 166;
+  --ctp-ext-pink: 228, 157, 248;
+  --ctp-ext-mauve: 189, 147, 249;
+  --ctp-ext-red: 255, 85, 85;
+  --ctp-ext-maroon: 230, 102, 102;
+  --ctp-ext-peach: 255, 184, 108;
+  --ctp-ext-yellow: 241, 250, 140;
+  --ctp-ext-green: 80, 250, 123;
+  --ctp-ext-teal: 104, 219, 211;
+  --ctp-ext-sky: 139, 233, 253;
+  --ctp-ext-sapphire: 104, 197, 240;
+  --ctp-ext-blue: 95, 126, 222;
+  --ctp-ext-lavender: 197, 146, 222;
+  --ctp-ext-text: 248, 248, 242;
+  --ctp-ext-subtext1: 211, 211, 197;
+  --ctp-ext-subtext0: 191, 191, 181;
+  --ctp-ext-overlay2: 139, 143, 167;
+  --ctp-ext-overlay1: 110, 114, 145;
+  --ctp-ext-overlay0: 88, 92, 116;
+  --ctp-ext-surface2: 68, 71, 90;
+  --ctp-ext-surface1: 56, 59, 76;
+  --ctp-ext-surface0: 48, 50, 65;
+  --ctp-ext-base: 40, 42, 54;
+  --ctp-ext-mantle: 33, 34, 44;
+  --ctp-ext-crust: 26, 27, 35;
+}
+
+.theme-light.anp-theme-ext-light.ctp-everforest-light, .anp-theme-ext-light.ctp-everforest-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 222, 177, 145;
+  --ctp-ext-flamingo: 221, 181, 194;
+  --ctp-ext-pink: 233, 130, 190;
+  --ctp-ext-mauve: 184, 122, 156;
+  --ctp-ext-red: 248, 85, 82;
+  --ctp-ext-maroon: 248, 104, 82;
+  --ctp-ext-peach: 245, 125, 38;
+  --ctp-ext-yellow: 191, 152, 61;
+  --ctp-ext-green: 137, 156, 64;
+  --ctp-ext-teal: 86, 157, 121;
+  --ctp-ext-sky: 86, 157, 139;
+  --ctp-ext-sapphire: 86, 157, 138;
+  --ctp-ext-blue: 90, 147, 162;
+  --ctp-ext-lavender: 208, 161, 187;
+  --ctp-ext-text: 92, 106, 114;
+  --ctp-ext-subtext1: 114, 125, 132;
+  --ctp-ext-subtext0: 135, 150, 134;
+  --ctp-ext-overlay2: 147, 159, 145;
+  --ctp-ext-overlay1: 164, 173, 158;
+  --ctp-ext-overlay0: 223, 219, 200;
+  --ctp-ext-surface2: 227, 224, 204;
+  --ctp-ext-surface1: 237, 234, 213;
+  --ctp-ext-surface0: 243, 239, 218;
+  --ctp-ext-base: 253, 246, 227;
+  --ctp-ext-mantle: 246, 241, 221;
+  --ctp-ext-crust: 240, 237, 216;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-everforest-dark, .anp-theme-ext-dark.ctp-everforest-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 231, 198, 155;
+  --ctp-ext-flamingo: 224, 186, 207;
+  --ctp-ext-pink: 227, 150, 174;
+  --ctp-ext-mauve: 184, 123, 157;
+  --ctp-ext-red: 218, 99, 98;
+  --ctp-ext-maroon: 218, 116, 98;
+  --ctp-ext-peach: 215, 127, 72;
+  --ctp-ext-yellow: 191, 152, 61;
+  --ctp-ext-green: 137, 156, 64;
+  --ctp-ext-teal: 86, 157, 121;
+  --ctp-ext-sky: 86, 157, 144;
+  --ctp-ext-sapphire: 86, 156, 157;
+  --ctp-ext-blue: 90, 147, 162;
+  --ctp-ext-lavender: 180, 144, 202;
+  --ctp-ext-text: 211, 198, 170;
+  --ctp-ext-subtext1: 182, 192, 180;
+  --ctp-ext-subtext0: 154, 167, 157;
+  --ctp-ext-overlay2: 133, 146, 137;
+  --ctp-ext-overlay1: 127, 137, 125;
+  --ctp-ext-overlay0: 81, 91, 97;
+  --ctp-ext-surface2: 74, 85, 91;
+  --ctp-ext-surface1: 64, 76, 81;
+  --ctp-ext-surface0: 55, 66, 71;
+  --ctp-ext-base: 47, 56, 62;
+  --ctp-ext-mantle: 39, 47, 52;
+  --ctp-ext-crust: 34, 40, 44;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-generic-dark, .anp-theme-ext-dark.ctp-generic-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 245, 224, 220;
+  --ctp-ext-flamingo: 242, 205, 205;
+  --ctp-ext-pink: 245, 194, 231;
+  --ctp-ext-mauve: 203, 166, 247;
+  --ctp-ext-red: 243, 139, 168;
+  --ctp-ext-maroon: 235, 160, 172;
+  --ctp-ext-peach: 250, 179, 135;
+  --ctp-ext-yellow: 249, 226, 175;
+  --ctp-ext-green: 166, 227, 161;
+  --ctp-ext-teal: 148, 226, 213;
+  --ctp-ext-sky: 137, 220, 235;
+  --ctp-ext-sapphire: 116, 199, 236;
+  --ctp-ext-blue: 135, 176, 249;
+  --ctp-ext-lavender: 180, 190, 254;
+  --ctp-ext-text: 255, 255, 255;
+  --ctp-ext-subtext1: 210, 210, 210;
+  --ctp-ext-subtext0: 189, 189, 189;
+  --ctp-ext-overlay2: 168, 168, 168;
+  --ctp-ext-overlay1: 147, 147, 147;
+  --ctp-ext-overlay0: 126, 126, 126;
+  --ctp-ext-surface2: 105, 105, 105;
+  --ctp-ext-surface1: 84, 84, 84;
+  --ctp-ext-surface0: 63, 63, 63;
+  --ctp-ext-base: 42, 42, 42;
+  --ctp-ext-mantle: 21, 21, 21;
+  --ctp-ext-crust: 0, 0, 0;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-gruvbox-dark, .anp-theme-ext-dark.ctp-gruvbox-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 243, 128, 25;
+  --ctp-ext-flamingo: 207, 162, 174;
+  --ctp-ext-pink: 177, 98, 118;
+  --ctp-ext-mauve: 177, 98, 134;
+  --ctp-ext-red: 204, 36, 29;
+  --ctp-ext-maroon: 204, 49, 29;
+  --ctp-ext-peach: 214, 93, 14;
+  --ctp-ext-yellow: 215, 153, 33;
+  --ctp-ext-green: 152, 151, 26;
+  --ctp-ext-teal: 102, 152, 26;
+  --ctp-ext-sky: 26, 152, 76;
+  --ctp-ext-sapphire: 26, 133, 152;
+  --ctp-ext-blue: 69, 133, 136;
+  --ctp-ext-lavender: 146, 111, 175;
+  --ctp-ext-text: 251, 241, 199;
+  --ctp-ext-subtext1: 213, 196, 161;
+  --ctp-ext-subtext0: 189, 174, 147;
+  --ctp-ext-overlay2: 151, 137, 125;
+  --ctp-ext-overlay1: 124, 111, 100;
+  --ctp-ext-overlay0: 102, 92, 84;
+  --ctp-ext-surface2: 80, 73, 69;
+  --ctp-ext-surface1: 60, 56, 54;
+  --ctp-ext-surface0: 50, 48, 47;
+  --ctp-ext-base: 40, 40, 40;
+  --ctp-ext-mantle: 29, 32, 33;
+  --ctp-ext-crust: 19, 21, 22;
+}
+
+.theme-light.anp-theme-ext-light.ctp-gruvbox-light, .anp-theme-ext-light.ctp-gruvbox-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 243, 128, 25;
+  --ctp-ext-flamingo: 207, 162, 174;
+  --ctp-ext-pink: 177, 98, 118;
+  --ctp-ext-mauve: 177, 98, 134;
+  --ctp-ext-red: 204, 36, 29;
+  --ctp-ext-maroon: 204, 49, 29;
+  --ctp-ext-peach: 214, 93, 14;
+  --ctp-ext-yellow: 215, 153, 33;
+  --ctp-ext-green: 152, 151, 26;
+  --ctp-ext-teal: 102, 152, 26;
+  --ctp-ext-sky: 26, 152, 76;
+  --ctp-ext-sapphire: 26, 133, 152;
+  --ctp-ext-blue: 69, 133, 136;
+  --ctp-ext-lavender: 146, 111, 175;
+  --ctp-ext-text: 40, 40, 40;
+  --ctp-ext-subtext1: 80, 73, 69;
+  --ctp-ext-subtext0: 102, 92, 84;
+  --ctp-ext-overlay2: 149, 131, 106;
+  --ctp-ext-overlay1: 168, 153, 133;
+  --ctp-ext-overlay0: 189, 174, 147;
+  --ctp-ext-surface2: 214, 196, 161;
+  --ctp-ext-surface1: 235, 219, 179;
+  --ctp-ext-surface0: 242, 229, 188;
+  --ctp-ext-base: 249, 245, 215;
+  --ctp-ext-mantle: 236, 225, 196;
+  --ctp-ext-crust: 230, 215, 178;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-kanagawa-dark, .anp-theme-ext-dark.ctp-kanagawa-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 255, 200, 148;
+  --ctp-ext-flamingo: 210, 126, 129;
+  --ctp-ext-pink: 210, 126, 153;
+  --ctp-ext-mauve: 149, 127, 184;
+  --ctp-ext-red: 255, 93, 98;
+  --ctp-ext-maroon: 228, 104, 118;
+  --ctp-ext-peach: 255, 160, 102;
+  --ctp-ext-yellow: 230, 195, 132;
+  --ctp-ext-green: 152, 187, 108;
+  --ctp-ext-teal: 122, 168, 159;
+  --ctp-ext-sky: 163, 212, 213;
+  --ctp-ext-sapphire: 127, 180, 202;
+  --ctp-ext-blue: 126, 156, 216;
+  --ctp-ext-lavender: 147, 138, 169;
+  --ctp-ext-text: 220, 215, 186;
+  --ctp-ext-subtext1: 212, 206, 170;
+  --ctp-ext-subtext0: 200, 192, 147;
+  --ctp-ext-overlay2: 95, 95, 124;
+  --ctp-ext-overlay1: 84, 84, 109;
+  --ctp-ext-overlay0: 73, 73, 95;
+  --ctp-ext-surface2: 62, 62, 81;
+  --ctp-ext-surface1: 54, 54, 69;
+  --ctp-ext-surface0: 42, 42, 55;
+  --ctp-ext-base: 31, 31, 40;
+  --ctp-ext-mantle: 22, 22, 29;
+  --ctp-ext-crust: 11, 11, 15;
+}
+
+.theme-light.anp-theme-ext-light.ctp-luminescence-light, .anp-theme-ext-light.ctp-luminescence-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 227, 130, 130;
+  --ctp-ext-flamingo: 227, 130, 154;
+  --ctp-ext-pink: 237, 172, 171;
+  --ctp-ext-mauve: 212, 165, 198;
+  --ctp-ext-red: 232, 152, 151;
+  --ctp-ext-maroon: 209, 149, 148;
+  --ctp-ext-peach: 229, 172, 154;
+  --ctp-ext-yellow: 242, 203, 140;
+  --ctp-ext-green: 148, 189, 117;
+  --ctp-ext-teal: 98, 157, 142;
+  --ctp-ext-sky: 98, 157, 157;
+  --ctp-ext-sapphire: 117, 153, 189;
+  --ctp-ext-blue: 130, 146, 201;
+  --ctp-ext-lavender: 151, 151, 211;
+  --ctp-ext-text: 101, 73, 65;
+  --ctp-ext-subtext1: 122, 91, 82;
+  --ctp-ext-subtext0: 122, 91, 82;
+  --ctp-ext-overlay2: 157, 130, 123;
+  --ctp-ext-overlay1: 194, 171, 163;
+  --ctp-ext-overlay0: 223, 219, 200;
+  --ctp-ext-surface2: 246, 243, 239;
+  --ctp-ext-surface1: 225, 212, 208;
+  --ctp-ext-surface0: 205, 183, 177;
+  --ctp-ext-base: 242, 238, 232;
+  --ctp-ext-mantle: 236, 231, 223;
+  --ctp-ext-crust: 236, 231, 223;
+}
+
+.theme-light.anp-theme-ext-light.ctp-material-mint-light, .anp-theme-ext-light.ctp-material-mint-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 195, 126, 112;
+  --ctp-ext-flamingo: 180, 78, 78;
+  --ctp-ext-pink: 144, 61, 122;
+  --ctp-ext-mauve: 98, 61, 143;
+  --ctp-ext-red: 146, 62, 86;
+  --ctp-ext-maroon: 145, 62, 76;
+  --ctp-ext-peach: 195, 145, 114;
+  --ctp-ext-yellow: 184, 164, 123;
+  --ctp-ext-green: 51, 107, 46;
+  --ctp-ext-teal: 71, 123, 133;
+  --ctp-ext-sky: 47, 101, 110;
+  --ctp-ext-sapphire: 45, 88, 108;
+  --ctp-ext-blue: 46, 69, 109;
+  --ctp-ext-lavender: 53, 60, 100;
+  --ctp-ext-text: 5, 9, 10;
+  --ctp-ext-subtext1: 11, 18, 20;
+  --ctp-ext-subtext0: 18, 31, 33;
+  --ctp-ext-overlay2: 29, 49, 53;
+  --ctp-ext-overlay1: 43, 73, 80;
+  --ctp-ext-overlay0: 57, 98, 106;
+  --ctp-ext-surface2: 71, 122, 133;
+  --ctp-ext-surface1: 86, 147, 159;
+  --ctp-ext-surface0: 109, 165, 176;
+  --ctp-ext-base: 189, 214, 219;
+  --ctp-ext-mantle: 162, 198, 205;
+  --ctp-ext-crust: 136, 182, 191;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-material-mint-dark, .anp-theme-ext-dark.ctp-material-mint-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 245, 224, 220;
+  --ctp-ext-flamingo: 242, 205, 205;
+  --ctp-ext-pink: 245, 194, 231;
+  --ctp-ext-mauve: 203, 166, 247;
+  --ctp-ext-red: 243, 139, 168;
+  --ctp-ext-maroon: 235, 160, 172;
+  --ctp-ext-peach: 250, 179, 135;
+  --ctp-ext-yellow: 249, 226, 175;
+  --ctp-ext-green: 166, 227, 161;
+  --ctp-ext-teal: 189, 214, 219;
+  --ctp-ext-sky: 137, 220, 235;
+  --ctp-ext-sapphire: 116, 199, 236;
+  --ctp-ext-blue: 135, 176, 249;
+  --ctp-ext-lavender: 180, 190, 254;
+  --ctp-ext-text: 189, 214, 219;
+  --ctp-ext-subtext1: 162, 198, 205;
+  --ctp-ext-subtext0: 136, 182, 191;
+  --ctp-ext-overlay2: 109, 165, 176;
+  --ctp-ext-overlay1: 86, 147, 159;
+  --ctp-ext-overlay0: 71, 122, 133;
+  --ctp-ext-surface2: 57, 98, 106;
+  --ctp-ext-surface1: 43, 73, 80;
+  --ctp-ext-surface0: 29, 49, 53;
+  --ctp-ext-base: 18, 31, 33;
+  --ctp-ext-mantle: 11, 18, 20;
+  --ctp-ext-crust: 5, 9, 10;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-nord-dark, .anp-theme-ext-dark.ctp-nord-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 226, 191, 169;
+  --ctp-ext-flamingo: 239, 171, 150;
+  --ctp-ext-pink: 214, 163, 222;
+  --ctp-ext-mauve: 180, 142, 173;
+  --ctp-ext-red: 191, 97, 106;
+  --ctp-ext-maroon: 191, 108, 97;
+  --ctp-ext-peach: 208, 135, 112;
+  --ctp-ext-yellow: 235, 203, 139;
+  --ctp-ext-green: 163, 190, 140;
+  --ctp-ext-teal: 143, 188, 187;
+  --ctp-ext-sky: 136, 192, 208;
+  --ctp-ext-sapphire: 129, 161, 193;
+  --ctp-ext-blue: 94, 129, 172;
+  --ctp-ext-lavender: 192, 167, 187;
+  --ctp-ext-text: 236, 239, 244;
+  --ctp-ext-subtext1: 229, 233, 240;
+  --ctp-ext-subtext0: 217, 222, 232;
+  --ctp-ext-overlay2: 196, 201, 212;
+  --ctp-ext-overlay1: 172, 180, 195;
+  --ctp-ext-overlay0: 149, 158, 178;
+  --ctp-ext-surface2: 125, 137, 161;
+  --ctp-ext-surface1: 103, 116, 142;
+  --ctp-ext-surface0: 77, 87, 106;
+  --ctp-ext-base: 67, 76, 94;
+  --ctp-ext-mantle: 59, 66, 82;
+  --ctp-ext-crust: 46, 52, 64;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-nord-darker, .anp-theme-ext-dark.ctp-nord-darker .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 226, 191, 169;
+  --ctp-ext-flamingo: 239, 171, 150;
+  --ctp-ext-pink: 214, 163, 222;
+  --ctp-ext-mauve: 180, 142, 173;
+  --ctp-ext-red: 191, 97, 106;
+  --ctp-ext-maroon: 191, 108, 97;
+  --ctp-ext-peach: 208, 135, 112;
+  --ctp-ext-yellow: 235, 203, 139;
+  --ctp-ext-green: 163, 190, 140;
+  --ctp-ext-teal: 143, 188, 187;
+  --ctp-ext-sky: 136, 192, 208;
+  --ctp-ext-sapphire: 129, 161, 193;
+  --ctp-ext-blue: 94, 129, 172;
+  --ctp-ext-lavender: 192, 167, 187;
+  --ctp-ext-text: 236, 239, 244;
+  --ctp-ext-subtext1: 229, 233, 240;
+  --ctp-ext-subtext0: 217, 222, 232;
+  --ctp-ext-overlay2: 196, 201, 212;
+  --ctp-ext-overlay1: 172, 180, 195;
+  --ctp-ext-overlay0: 149, 158, 178;
+  --ctp-ext-surface2: 125, 137, 161;
+  --ctp-ext-surface1: 67, 76, 94;
+  --ctp-ext-surface0: 59, 66, 82;
+  --ctp-ext-base: 46, 52, 64;
+  --ctp-ext-mantle: 39, 43, 53;
+  --ctp-ext-crust: 30, 34, 41;
+}
+
+.theme-light.anp-theme-ext-light.ctp-nord-light, .anp-theme-ext-light.ctp-nord-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 209, 135, 112;
+  --ctp-ext-flamingo: 180, 142, 173;
+  --ctp-ext-pink: 180, 142, 173;
+  --ctp-ext-mauve: 180, 142, 173;
+  --ctp-ext-red: 191, 97, 106;
+  --ctp-ext-maroon: 191, 97, 106;
+  --ctp-ext-peach: 208, 135, 112;
+  --ctp-ext-yellow: 216, 172, 84;
+  --ctp-ext-green: 136, 167, 108;
+  --ctp-ext-teal: 121, 191, 142;
+  --ctp-ext-sky: 143, 188, 187;
+  --ctp-ext-sapphire: 136, 192, 208;
+  --ctp-ext-blue: 94, 129, 172;
+  --ctp-ext-lavender: 94, 129, 172;
+  --ctp-ext-text: 46, 52, 64;
+  --ctp-ext-subtext1: 59, 66, 82;
+  --ctp-ext-subtext0: 67, 76, 94;
+  --ctp-ext-overlay2: 76, 86, 106;
+  --ctp-ext-overlay1: 86, 97, 118;
+  --ctp-ext-overlay0: 143, 188, 187;
+  --ctp-ext-surface2: 216, 222, 233;
+  --ctp-ext-surface1: 216, 222, 233;
+  --ctp-ext-surface0: 229, 233, 240;
+  --ctp-ext-base: 236, 239, 244;
+  --ctp-ext-mantle: 231, 235, 241;
+  --ctp-ext-crust: 229, 233, 240;
+}
+
+.theme-light.anp-theme-ext-light.ctp-notion-light, .anp-theme-ext-light.ctp-notion-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 228, 122, 112;
+  --ctp-ext-flamingo: 186, 82, 117;
+  --ctp-ext-pink: 173, 26, 114;
+  --ctp-ext-mauve: 105, 64, 165;
+  --ctp-ext-red: 224, 62, 62;
+  --ctp-ext-maroon: 224, 76, 62;
+  --ctp-ext-peach: 217, 115, 13;
+  --ctp-ext-yellow: 223, 171, 1;
+  --ctp-ext-green: 15, 123, 108;
+  --ctp-ext-teal: 15, 123, 123;
+  --ctp-ext-sky: 11, 136, 153;
+  --ctp-ext-sapphire: 11, 122, 153;
+  --ctp-ext-blue: 11, 110, 153;
+  --ctp-ext-lavender: 107, 84, 141;
+  --ctp-ext-text: 55, 53, 47;
+  --ctp-ext-subtext1: 77, 74, 66;
+  --ctp-ext-subtext0: 99, 95, 84;
+  --ctp-ext-overlay2: 121, 117, 103;
+  --ctp-ext-overlay1: 123, 135, 142;
+  --ctp-ext-overlay0: 145, 155, 161;
+  --ctp-ext-surface2: 170, 177, 182;
+  --ctp-ext-surface1: 189, 195, 199;
+  --ctp-ext-surface0: 208, 212, 215;
+  --ctp-ext-base: 255, 255, 255;
+  --ctp-ext-mantle: 244, 245, 246;
+  --ctp-ext-crust: 227, 230, 232;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-notion-dark, .anp-theme-ext-dark.ctp-notion-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 246, 174, 138;
+  --ctp-ext-flamingo: 248, 160, 154;
+  --ctp-ext-pink: 226, 85, 161;
+  --ctp-ext-mauve: 154, 109, 215;
+  --ctp-ext-red: 255, 115, 105;
+  --ctp-ext-maroon: 255, 120, 105;
+  --ctp-ext-peach: 255, 163, 68;
+  --ctp-ext-yellow: 255, 220, 73;
+  --ctp-ext-green: 77, 171, 154;
+  --ctp-ext-teal: 77, 171, 165;
+  --ctp-ext-sky: 77, 166, 171;
+  --ctp-ext-sapphire: 82, 178, 202;
+  --ctp-ext-blue: 82, 156, 202;
+  --ctp-ext-lavender: 156, 125, 198;
+  --ctp-ext-text: 227, 230, 232;
+  --ctp-ext-subtext1: 222, 225, 227;
+  --ctp-ext-subtext0: 200, 205, 208;
+  --ctp-ext-overlay2: 178, 185, 189;
+  --ctp-ext-overlay1: 156, 165, 171;
+  --ctp-ext-overlay0: 134, 145, 152;
+  --ctp-ext-surface2: 113, 125, 132;
+  --ctp-ext-surface1: 94, 104, 110;
+  --ctp-ext-surface0: 75, 83, 88;
+  --ctp-ext-base: 61, 68, 72;
+  --ctp-ext-mantle: 54, 60, 63;
+  --ctp-ext-crust: 47, 52, 55;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-rosebox, .anp-theme-ext-dark.ctp-rosebox .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 165, 117, 98;
+  --ctp-ext-flamingo: 165, 117, 98;
+  --ctp-ext-pink: 180, 142, 173;
+  --ctp-ext-mauve: 180, 142, 173;
+  --ctp-ext-red: 191, 97, 106;
+  --ctp-ext-maroon: 191, 97, 106;
+  --ctp-ext-peach: 208, 135, 112;
+  --ctp-ext-yellow: 235, 203, 139;
+  --ctp-ext-green: 163, 190, 140;
+  --ctp-ext-teal: 143, 188, 187;
+  --ctp-ext-sky: 136, 192, 208;
+  --ctp-ext-sapphire: 136, 192, 208;
+  --ctp-ext-blue: 94, 129, 172;
+  --ctp-ext-lavender: 129, 161, 193;
+  --ctp-ext-text: 163, 165, 170;
+  --ctp-ext-subtext1: 135, 137, 145;
+  --ctp-ext-subtext0: 110, 113, 119;
+  --ctp-ext-overlay2: 92, 92, 92;
+  --ctp-ext-overlay1: 82, 82, 82;
+  --ctp-ext-overlay0: 71, 71, 71;
+  --ctp-ext-surface2: 61, 61, 61;
+  --ctp-ext-surface1: 51, 51, 51;
+  --ctp-ext-surface0: 40, 40, 40;
+  --ctp-ext-base: 35, 35, 35;
+  --ctp-ext-mantle: 30, 30, 30;
+  --ctp-ext-crust: 25, 25, 25;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-rosepine-dark, .anp-theme-ext-dark.ctp-rosepine-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 243, 215, 204;
+  --ctp-ext-flamingo: 235, 188, 186;
+  --ctp-ext-pink: 223, 167, 231;
+  --ctp-ext-mauve: 196, 167, 231;
+  --ctp-ext-red: 235, 111, 146;
+  --ctp-ext-maroon: 235, 122, 111;
+  --ctp-ext-peach: 235, 159, 111;
+  --ctp-ext-yellow: 246, 193, 119;
+  --ctp-ext-green: 114, 182, 156;
+  --ctp-ext-teal: 156, 207, 216;
+  --ctp-ext-sky: 49, 116, 143;
+  --ctp-ext-sapphire: 68, 132, 171;
+  --ctp-ext-blue: 76, 127, 169;
+  --ctp-ext-lavender: 210, 193, 231;
+  --ctp-ext-text: 224, 222, 244;
+  --ctp-ext-subtext1: 144, 140, 170;
+  --ctp-ext-subtext0: 110, 106, 134;
+  --ctp-ext-overlay2: 82, 79, 103;
+  --ctp-ext-overlay1: 64, 61, 82;
+  --ctp-ext-overlay0: 54, 50, 83;
+  --ctp-ext-surface2: 46, 42, 70;
+  --ctp-ext-surface1: 33, 32, 46;
+  --ctp-ext-surface0: 31, 29, 46;
+  --ctp-ext-base: 25, 23, 36;
+  --ctp-ext-mantle: 17, 16, 25;
+  --ctp-ext-crust: 11, 10, 16;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-royal-velvet, .anp-theme-ext-dark.ctp-royal-velvet .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 246, 201, 153;
+  --ctp-ext-flamingo: 245, 189, 166;
+  --ctp-ext-pink: 228, 157, 248;
+  --ctp-ext-mauve: 197, 146, 222;
+  --ctp-ext-red: 240, 120, 160;
+  --ctp-ext-maroon: 230, 102, 102;
+  --ctp-ext-peach: 230, 195, 125;
+  --ctp-ext-yellow: 241, 250, 140;
+  --ctp-ext-green: 130, 235, 130;
+  --ctp-ext-teal: 114, 224, 214;
+  --ctp-ext-sky: 139, 233, 253;
+  --ctp-ext-sapphire: 104, 197, 240;
+  --ctp-ext-blue: 95, 126, 222;
+  --ctp-ext-lavender: 154, 141, 247;
+  --ctp-ext-text: 248, 248, 242;
+  --ctp-ext-subtext1: 211, 211, 197;
+  --ctp-ext-subtext0: 191, 191, 181;
+  --ctp-ext-overlay2: 139, 143, 167;
+  --ctp-ext-overlay1: 110, 114, 145;
+  --ctp-ext-overlay0: 88, 92, 116;
+  --ctp-ext-surface2: 68, 71, 90;
+  --ctp-ext-surface1: 56, 59, 76;
+  --ctp-ext-surface0: 48, 50, 65;
+  --ctp-ext-base: 30, 30, 36;
+  --ctp-ext-mantle: 25, 25, 30;
+  --ctp-ext-crust: 20, 20, 25;
+}
+
+.theme-light.anp-theme-ext-light.ctp-sandy-beaches-light, .anp-theme-ext-light.ctp-sandy-beaches-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 228, 212, 196;
+  --ctp-ext-flamingo: 214, 188, 174;
+  --ctp-ext-pink: 200, 164, 152;
+  --ctp-ext-mauve: 149, 136, 138;
+  --ctp-ext-red: 166, 137, 123;
+  --ctp-ext-maroon: 186, 144, 123;
+  --ctp-ext-peach: 199, 161, 135;
+  --ctp-ext-yellow: 212, 187, 160;
+  --ctp-ext-green: 152, 150, 134;
+  --ctp-ext-teal: 149, 156, 153;
+  --ctp-ext-sky: 138, 155, 163;
+  --ctp-ext-sapphire: 124, 133, 143;
+  --ctp-ext-blue: 109, 111, 123;
+  --ctp-ext-lavender: 135, 128, 142;
+  --ctp-ext-text: 104, 88, 80;
+  --ctp-ext-subtext1: 108, 92, 84;
+  --ctp-ext-subtext0: 111, 96, 88;
+  --ctp-ext-overlay2: 118, 103, 96;
+  --ctp-ext-overlay1: 124, 110, 103;
+  --ctp-ext-overlay0: 130, 117, 110;
+  --ctp-ext-surface2: 205, 197, 193;
+  --ctp-ext-surface1: 212, 205, 200;
+  --ctp-ext-surface0: 222, 216, 209;
+  --ctp-ext-base: 240, 234, 226;
+  --ctp-ext-mantle: 237, 231, 224;
+  --ctp-ext-crust: 230, 223, 216;
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-solarized-dark, .anp-theme-ext-dark.ctp-solarized-dark .themed-color-wrapper &gt; .theme-dark {
+  --ctp-ext-rosewater: 227, 131, 89;
+  --ctp-ext-flamingo: 241, 142, 168;
+  --ctp-ext-pink: 211, 54, 130;
+  --ctp-ext-mauve: 108, 113, 196;
+  --ctp-ext-red: 220, 50, 47;
+  --ctp-ext-maroon: 220, 60, 46;
+  --ctp-ext-peach: 203, 75, 22;
+  --ctp-ext-yellow: 181, 137, 0;
+  --ctp-ext-green: 133, 153, 0;
+  --ctp-ext-teal: 42, 161, 152;
+  --ctp-ext-sky: 42, 145, 161;
+  --ctp-ext-sapphire: 39, 168, 211;
+  --ctp-ext-blue: 38, 139, 210;
+  --ctp-ext-lavender: 139, 143, 222;
+  --ctp-ext-text: 253, 246, 227;
+  --ctp-ext-subtext1: 237, 232, 214;
+  --ctp-ext-subtext0: 225, 215, 183;
+  --ctp-ext-overlay2: 147, 161, 161;
+  --ctp-ext-overlay1: 117, 159, 163;
+  --ctp-ext-overlay0: 106, 168, 175;
+  --ctp-ext-surface2: 51, 129, 153;
+  --ctp-ext-surface1: 38, 97, 115;
+  --ctp-ext-surface0: 10, 76, 92;
+  --ctp-ext-base: 7, 54, 66;
+  --ctp-ext-mantle: 0, 43, 54;
+  --ctp-ext-crust: 0, 33, 41;
+}
+
+.theme-light.anp-theme-ext-light.ctp-solarized-light, .anp-theme-ext-light.ctp-solarized-light .themed-color-wrapper &gt; .theme-light {
+  --ctp-ext-rosewater: 227, 131, 89;
+  --ctp-ext-flamingo: 241, 142, 168;
+  --ctp-ext-pink: 211, 54, 130;
+  --ctp-ext-mauve: 108, 113, 196;
+  --ctp-ext-red: 220, 50, 47;
+  --ctp-ext-maroon: 220, 60, 46;
+  --ctp-ext-peach: 203, 75, 22;
+  --ctp-ext-yellow: 181, 137, 0;
+  --ctp-ext-green: 133, 153, 0;
+  --ctp-ext-teal: 42, 161, 152;
+  --ctp-ext-sky: 42, 145, 161;
+  --ctp-ext-sapphire: 39, 168, 211;
+  --ctp-ext-blue: 38, 139, 210;
+  --ctp-ext-lavender: 139, 143, 222;
+  --ctp-ext-text: 0, 43, 54;
+  --ctp-ext-subtext1: 7, 54, 66;
+  --ctp-ext-subtext0: 10, 76, 92;
+  --ctp-ext-overlay2: 77, 96, 102;
+  --ctp-ext-overlay1: 88, 110, 117;
+  --ctp-ext-overlay0: 101, 123, 131;
+  --ctp-ext-surface2: 131, 148, 150;
+  --ctp-ext-surface1: 145, 160, 161;
+  --ctp-ext-surface0: 173, 184, 184;
+  --ctp-ext-base: 253, 246, 227;
+  --ctp-ext-mantle: 237, 232, 214;
+  --ctp-ext-crust: 224, 215, 184;
+}
+" alt=""></li><li>使用 style setting 插件，右上角 import 配置，其他的配置可以在 style setting 继续设置</li></ol><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token punctuation">{</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anuppuccin-theme-light&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;ctp-rosepine-light&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anuppuccin-theme-dark&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;ctp-mocha&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anuppuccin-accent-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anuppuccin-theme-accents&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;ctp-accent-rosewater&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-colorful-frame-opacity&quot;</span><span class="token punctuation">:</span> 1<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-colorful-frame-color@@dark&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;#43BFBA&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-colorful-frame-color@@light&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;#74B7C4&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-callout-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-callout-select&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;anp-callout-default&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-callout-color-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-callout-fold-position&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-editor-font-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-active-line&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;anp-current-line&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-toggle-preview&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-toggle-scrollbars&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-header-margin-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-header-margin-value&quot;</span><span class="token punctuation">:</span> 20<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@h1-size&quot;</span><span class="token punctuation">:</span> 1.6<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@h2-size&quot;</span><span class="token punctuation">:</span> 1.4<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@h3-size&quot;</span><span class="token punctuation">:</span> 1.3<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@h4-size&quot;</span><span class="token punctuation">:</span> 1.2<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@h5-size&quot;</span><span class="token punctuation">:</span> 1.1<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@h6-size&quot;</span><span class="token punctuation">:</span> 1.05<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-layout-select&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;anp-card-layout&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-disable-borders&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-card-shadows&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-card-layout-filebrowser&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-list-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-button-metadata-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-custom-vault-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-color-transition-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-alt-rainbow-style&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;anp-simple-rainbow-color-toggle&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-rainbow-file-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-rainbow-folder-bg-opacity&quot;</span><span class="token punctuation">:</span> 0.7<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-rainbow-folder-border-opacity&quot;</span><span class="token punctuation">:</span> 1<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-simple-rainbow-icon-folder-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-simple-rainbow-collapse-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-table-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-table-width&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-th-highlight&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-td-highlight&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;anp-td-none&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-table-align-th&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;center&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-table-width-pct&quot;</span><span class="token punctuation">:</span> 100<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-alt-tab-style&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;anp-alternate-tab-toggle&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-decoration-toggle&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-bold-custom&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;anp-bold-maroon&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings@@anp-translucent-left&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings-extended@@anp-theme-ext-light&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings-extended@@anp-theme-ext-dark&quot;</span><span class="token punctuation">:</span> true<span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings-extended@@catppuccin-theme-extended&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;ctp-atom-light&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;ctp-atom-dark&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><div class="meta-item edit-link"><a class="external-link meta-item-label" href="https://github.com/dtenghao?tab=repositories/edit/main/奇淫巧技/obsidian配置.md" rel="noopener noreferrer" target="_blank" aria-label="Edit this page"><!--[--><!--]--> Edit this page <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!----><!----></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/notebook/assets/app-29aba0ee.js" defer></script>
+  </body>
+</html>

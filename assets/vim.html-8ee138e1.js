@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-ad5336d2","path":"/%E8%BF%90%E7%BB%B4/vim.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[],"git":{},"filePathRelative":"运维/vim.md"}');export{t as data};

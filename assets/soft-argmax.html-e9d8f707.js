@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-89b7d61a","path":"/%E7%A7%91%E7%A0%94/%E6%96%B9%E6%B3%95%E6%A6%82%E8%BF%B0/soft-argmax.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[],"git":{},"filePathRelative":"科研/方法概述/soft-argmax.md"}');export{t as data};

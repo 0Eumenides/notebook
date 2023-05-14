@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3ca7a6ca","path":"/%E6%95%B0%E6%8D%AE%E5%BA%93/Mybatis/base/%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[],"git":{},"filePathRelative":"数据库/Mybatis/base/注解开发.md"}');export{t as data};

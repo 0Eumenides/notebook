@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-46f1e5fe","path":"/%E7%A7%91%E7%A0%94/%E6%96%B9%E6%B3%95%E6%A6%82%E8%BF%B0/%E5%8F%8D%E6%8A%95%E5%BD%B1%EF%BC%88back-projecting%EF%BC%89.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[],"git":{},"filePathRelative":"科研/方法概述/反投影（back-projecting）.md"}');export{t as data};

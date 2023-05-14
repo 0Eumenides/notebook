@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b953e39c","path":"/%E5%A5%87%E6%B7%AB%E5%B7%A7%E6%8A%80/virtualenv.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[{"level":1,"title":"venv虚拟环境创建","slug":"venv虚拟环境创建","link":"#venv虚拟环境创建","children":[]}],"git":{},"filePathRelative":"奇淫巧技/virtualenv.md"}');export{e as data};

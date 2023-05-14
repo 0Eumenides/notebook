@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7e19983a","path":"/%E7%A7%91%E7%A0%94/tricks/corner_pooling.html","title":"目录","lang":"zh-CN","frontmatter":{"title":"目录"},"headers":[{"level":1,"title":"Cascade corner pooling","slug":"cascade-corner-pooling","link":"#cascade-corner-pooling","children":[]}],"git":{},"filePathRelative":"科研/tricks/corner_pooling.md"}');export{e as data};
